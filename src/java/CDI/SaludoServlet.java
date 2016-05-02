@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class SaludoServlet extends HttpServlet {
     
-    @Inject @Formal
+    @Inject @Informal
     private Saludo saludo;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
